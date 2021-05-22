@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+
+    <script defer src="index.js"></script>
+    cd
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <div id="g"></div>
+    <div class="logo">
+      <p class="info1">Welcome to the next level</p>
+      <p class="info">Click the P to get started.</p>
+      <div class="card left">
+        <div class="flipper">
+          <div class="f c1">F</div>
+          <div class="b contentbox" id="stats">
+            <div class="padded">
+              <h2>Figures</h2>
+              Looks like you haven't FLIPped yet.<br />
+              Be sure you are in right path!!!
+              <a href="javascript:;" class="playnow">Play now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card active twist">
+        <div class="flipper">
+          <div class="b f">
+            <div class="c2">L</div>
+          </div>
+        </div>
+      </div>
+      <div class="card left">
+        <div class="flipper">
+          <div class="f c3">I</div>
+          <div class="b contentbox instructions">
+            <div class="padded">
+              <h2>Instructions</h2>
+              <p>Press [p] to pause, or [ESC] to abandon game.</p>
+              <p>
+                Flip is a timed card memory game. Click the green cards to see
+                what symbol they uncover and try to find the matching symbol
+                underneath the other cards.
+              </p>
+              <p>
+                Uncover two matching symbols at once to eliminate them from the
+                game.
+              </p>
+              <p>
+                Eliminate all cards as fast as you can to win the game. Have fun
+                FLIPing!
+              </p>
+              <p>Be sure you are in right path!!!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flipper">
+          <div class="f c4">P</div>
+          <div class="b contentbox levels">
+            <a href="javascript:;" data-level="8" class="play">Casual</a>
+            <a href="javascript:;" data-level="18" class="play">Medium</a>
+            <a href="javascript:;" data-level="32" class="play">Hard</a>
+          </div>
+        </div>
+      </div>
+
+      <p class="info">Flip should work best in Google Chrome</p>
+    </div>
+  </body>
+</html>
